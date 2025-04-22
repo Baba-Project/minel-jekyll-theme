@@ -73,7 +73,7 @@
     "mkdirp": "3.0.1",
     "ngrok": "4.3.3",
     "nodemon": "3.1.4",
-    "postcss": "8.4.41",
+    "postcss": "8.5.3",
     "sync-request": "6.1.0",
     "yargs": "17.7.2"
   },
