@@ -117,7 +117,6 @@ function convert_media_webp() {
       .pipe(webp())
       .pipe(duration('Resimler Webp formatına çeviriliyor'))
       .pipe(gulp.dest(configProd.optimize.media.dest))
-      .pipe(size(configProd.size))
   } catch (err) {
     console.error('Webp dönüşümü sırasında hata:', err)
     return Promise.resolve()
@@ -154,7 +153,6 @@ function optimize_media_prod() {
       .pipe(duration('Optimizing media for production'))
       //.pipe(rename({ extname: '.webp' }))
       .pipe(gulp.dest(configProd.optimize.media.dest))
-      .pipe(size(configProd.size))
   )
 }
 
@@ -174,7 +172,6 @@ function optimize_svg_prod() {
         ])
       )
       .pipe(gulp.dest(configProd.optimize.media.dest))
-      .pipe(size(configProd.size)) // Dosya boyutlarını yazdırma
   } catch (err) {
     console.error('SVG optimizasyonu sırasında hata:', err)
     return Promise.resolve()
@@ -188,7 +185,6 @@ function optimize_styles_prod() {
     .pipe(cssnano(configProd.optimize.styles.options))
     .pipe(duration('Optimizing and minifying CSS for production'))
     .pipe(gulp.dest(configProd.optimize.styles.dest))
-    .pipe(size(configProd.size))
 }
 
 function optimize_scripts_prod() {
@@ -198,7 +194,6 @@ function optimize_scripts_prod() {
     .pipe(terser(configProd.optimize.scripts.options))
     .pipe(duration('Optimizing, minifying and minifying JS for production'))
     .pipe(gulp.dest(configProd.optimize.scripts.dest))
-    .pipe(size(configProd.size))
 }
 
 function optimize_html_prod() {
@@ -208,7 +203,6 @@ function optimize_html_prod() {
     .pipe(htmlmin(configProd.optimize.html.options))
     .pipe(duration('Optimizing and minifying HTML for production'))
     .pipe(gulp.dest(configProd.optimize.html.dest))
-    .pipe(size(configProd.size))
 }
 
 function optimize_inline_prod() {
