@@ -1,14 +1,14 @@
 # Minel
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+![localhost_8888_](https://github.com/user-attachments/assets/6d1b9093-a38e-4c5e-830b-e72a11424eba)
+![localhost_8888_jekyll-post_page_](https://github.com/user-attachments/assets/526452a5-9d3c-4b11-bc41-4771d65cd96e)
 
 To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
 TODO: Delete this and the text above, and describe your gem
 
-[![Deploy to GitHub Pages](https://github.com/yuceltoluyag/yuceltoluyag.github.io/actions/workflows/gh-pages.deploy.yml/badge.svg)](https://github.com/yuceltoluyag/yuceltoluyag.github.io/actions/workflows/gh-pages.deploy.yml)
 
-[![pages-build-deployment](https://github.com/yuceltoluyag/yuceltoluyag.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yuceltoluyag/yuceltoluyag.github.io/actions/workflows/pages/pages-build-deployment)
 
 ## Installation
 
