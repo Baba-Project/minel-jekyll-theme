@@ -1,6 +1,6 @@
 # Routes
-domain: 'https://yuceltoluyag.github.io/'
-url: 'https://yuceltoluyag.github.io/'
+domain: 'https://baba-project.github.io/'
+url: 'https://baba-project.github.io/'
 assets_root: /assets/
 assets_media: /assets/images/
 permalink: '/:title/'
