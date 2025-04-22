@@ -38,7 +38,7 @@ TODO: Write usage instructions here. Describe your available layouts, includes, 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/yuceltoluyag/yuceltoluyag.github.io. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://github.com/yuceltoluyag/yuceltoluyag.github.io/blob/main/CODE_OF_CONDUCT.md) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Baba-Project/minel-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://github.com/Baba-Project/minel-jekyll-theme/blob/main/CODE_OF_CONDUCT.md) code of conduct.
 
 ## Development
 
