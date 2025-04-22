@@ -29,7 +29,6 @@ permissions:
 concurrency:
   group: 'pages'
   cancel-in-progress: false
-  
 
 jobs:
   # Build job
@@ -55,7 +54,7 @@ jobs:
           gem install bundler
           bundle install
           gem install jekyll
-          bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}/"
+          bundle exec jekyll build --destination _site
           npm install
           npm run build
         env:
@@ -64,7 +63,9 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_site${{ steps.pages.outputs.base_path }}/"
+          path: '_site${{ steps.pages.outputs.base_path }}'
+          name: github-pages
+          retention-days: 1
 
   # Deployment job
   deploy:
