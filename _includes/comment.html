@@ -8,7 +8,7 @@ include.is_reply %} child{% endif %}{% endcapture %}
 <a class="avatar" href="#{{ comment_id }}"><img class="avatar rounded-1" height="44" width="44" alt="
     {{-include.name | strip_html }}" data-src="{{ include.avatar }}"></a>
 {% else %}
-<noscript><img src="/assets/images/avatar-60.png" alt=""></noscript>
+<noscript><img src="/minel-jekyll-theme/assets/images/avatar-60.png" alt=""></noscript>
 <a class="avatar" href="#{{ comment_id }}"><img class="avatar rounded-1" height="44" width="44"
     alt="{{-include.name | strip_html }}" src="https://www.gravatar.com/avatar/{{ include.email }}"
     data-srcset="https://www.gravatar.com/avatar/{{ include.email }}"></a>

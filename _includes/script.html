@@ -28,8 +28,8 @@
 {% endif %}
 <!-- SW -->
 {% if site.service-worker %}
-<script src="{{ " /assets/js/sw-registration.js" | prepend: _assets_baseurl }}"></script>
-<script src="{{ " /assets/js/snackbar.js" | prepend: _assets_baseurl }}"></script>
+<script src="{{ " /minel-jekyll-theme/assets/js/sw-registration.js" | prepend: _assets_baseurl }}"></script>
+<script src="{{ " /minel-jekyll-theme/assets/js/snackbar.js" | prepend: _assets_baseurl }}"></script>
 {% endif %}
 
 {% if page.layout == 'post' %}
@@ -37,7 +37,7 @@
 <!-- pv-report needs countup.js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script async src="https://cdn.jsdelivr.net/npm/countup.js@1.9.3/dist/countUp.min.js"></script>
-<script defer src="{{ '/assets/js/pvreport.js' | relative_url }}"></script>
+<script defer src="{{ '/minel-jekyll-theme/assets/js/pvreport.js' | relative_url }}"></script>
 {% endif %}
 {% endif %}
 {% endif %}
@@ -58,4 +58,4 @@
     "type": "lunr"
   }
 };</script>
-<script type="text/javascript" src="/assets/js/theme.js"></script>
+<script type="text/javascript" src="/minel-jekyll-theme/assets/js/theme.js"></script>
