@@ -1,9 +1,9 @@
-import { normalize, resolve } from 'path'
+const { normalize, resolve } = require('path')
 
 const basePath = normalize('node:../..')
 
 // Export the base config
-export default {
+module.exports = {
   homeFolder:
     process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'],
   src: {

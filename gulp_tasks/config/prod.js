@@ -1,8 +1,8 @@
 // Production config
-import { resolve } from 'path'
-import merge from 'lodash.merge'
+const { resolve } = require('path')
+const merge = require('lodash.merge')
 
-import baseConfig from './base.js'
+const baseConfig = require('./base.js')
 
 // Paths
 const src = baseConfig.src.base
@@ -87,4 +87,4 @@ const baseProdConfig = {
   },
 }
 
-export default merge(baseProdConfig, baseConfig)
+module.exports = merge(baseProdConfig, baseConfig)

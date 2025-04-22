@@ -1,6 +1,6 @@
 # Routes
-domain: 'https://baba-project.github.io/minel-jekyll-theme/'
-url: 'https://baba-project.github.io/minel-jekyll-theme/'
+domain: 'https://yuceltoluyag.github.io/'
+url: 'https://yuceltoluyag.github.io/'
 assets_root: /assets/
 assets_media: /assets/images/
 permalink: '/:title/'

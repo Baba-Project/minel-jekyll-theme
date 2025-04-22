@@ -1,4 +1,4 @@
-export default function(err) {
+module.exports = function (err) {
   // Send error to notification center with gulp-notify
   console.error(err.message, `\n  Filename: ${err.fileName}`)
 
